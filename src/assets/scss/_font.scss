@@ -1,0 +1,82 @@
+$path: '/font/gilroy/';
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url($path + 'Gilroy-LightItalic.eot');
+  src: url($path + 'Gilroy-LightItalic.eot?#iefix') format('embedded-opentype'),
+      url($path + 'Gilroy-LightItalic.woff') format('woff'),
+      url($path + 'Gilroy-LightItalic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url($path + 'Gilroy-SemiBold.eot');
+  src: url($path + 'Gilroy-SemiBold.eot?#iefix') format('embedded-opentype'),
+      url($path + 'Gilroy-SemiBold.woff') format('woff'),
+      url($path + 'Gilroy-SemiBold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url($path + 'Gilroy-SemiBoldItalic.eot');
+  src: url($path + 'Gilroy-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+      url($path + 'Gilroy-SemiBoldItalic.woff') format('woff'),
+      url($path + 'Gilroy-SemiBoldItalic.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url($path + 'Gilroy-Light.eot');
+  src: url($path + 'Gilroy-Light.eot?#iefix') format('embedded-opentype'),
+      url($path + 'Gilroy-Light.woff') format('woff'),
+      url($path + 'Gilroy-Light.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url($path + 'Gilroy-MediumItalic.eot');
+  src: url($path + 'Gilroy-MediumItalic.eot?#iefix') format('embedded-opentype'),
+      url($path + 'Gilroy-MediumItalic.woff') format('woff'),
+      url($path + 'Gilroy-MediumItalic.ttf') format('truetype');
+  font-weight: 600;
+  font-style: italic;
+}
+
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url($path + 'Gilroy-Regular.eot');
+  src: url($path + 'Gilroy-Regular.eot?#iefix') format('embedded-opentype'),
+        url($path + 'Gilroy-Regular.woff') format('woff'),
+        url($path + 'Gilroy-Regular.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url($path + 'Gilroy-Medium.eot');
+    src: url($path + 'Gilroy-Medium.eot?#iefix') format('embedded-opentype'),
+        url($path + 'Gilroy-Medium.woff') format('woff'),
+        url($path + 'Gilroy-Medium.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url($path + 'Gilroy-RegularItalic.eot');
+    src: url($path + 'Gilroy-RegularItalic.eot?#iefix') format('embedded-opentype'),
+        url($path + 'Gilroy-RegularItalic.woff') format('woff'),
+        url($path + 'Gilroy-RegularItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}

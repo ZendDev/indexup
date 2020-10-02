@@ -1,0 +1,1181 @@
+<!DOCTYPE html>
+<html class="is-page-default" lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <!-- <meta name="referrer" content="origin-when-cross-origin"> -->
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,user-scalable=no,viewport-fit=cover">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="theme-color" content="#3ea094">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="IndexUp">
+    <link rel="apple-touch-icon" sizes="57x57" href="images/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="images/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="images/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="images/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="images/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="images/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="images/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="images/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="images/favicon/manifest.json">
+    <meta name="msapplication-TileImage" content="images/favicon/ms-icon-144x144.png">
+    <meta name="msapplication-TileColor" content="#090f1e">
+    <title>Пополнение и Снятие - IndexUp</title>
+    <link rel="preload" href="fonts/Gilroy-Medium.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="fonts/Gilroy-SemiBold.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&amp;display=swap">
+    <link rel="stylesheet" href="css/app.min.css">
+  </head>
+  <body>
+    <div class="app">
+      <!-- Sticky :: Start-->
+      <div class="sticky">
+        <ul class="sticky__menu">
+          <li><a class="sticky__link" href="http://sduduexn.beget.tech/"><span class="sticky__link-icon">
+                <svg class="icon-sticky-index">
+                  <use xlink:href="sprites/sprite.svg#icon-sticky-index"></use>
+                </svg></span><span class="sticky__link-text">Главная</span></a></li>
+          <li><a class="sticky__link" href="http://sduduexn.beget.tech/live/football"><span class="sticky__link-icon">
+                <svg class="icon-sticky-live">
+                  <use xlink:href="sprites/sprite.svg#icon-sticky-live"></use>
+                </svg></span><span class="sticky__link-text">Live</span></a></li>
+          <li><a class="sticky__link sticky__link--red" href="http://sduduexn.beget.tech/cart"><span class="sticky__link-icon">
+                <svg class="icon-sticky-coupon">
+                  <use xlink:href="sprites/sprite.svg#icon-sticky-coupon"></use>
+                </svg></span><span class="sticky__link-text">Скидки</span></a></li>
+          <li><a class="sticky__link" href="http://sduduexn.beget.tech/line"><span class="sticky__link-icon">
+                <svg class="icon-sticky-line">
+                  <use xlink:href="sprites/sprite.svg#icon-sticky-line"></use>
+                </svg></span><span class="sticky__link-text">Линия</span></a></li>
+          <li><a class="sticky__link is-active" href="account.html"><span class="sticky__link-icon">
+                <svg class="icon-sticky-acc">
+                  <use xlink:href="sprites/sprite.svg#icon-sticky-acc"></use>
+                </svg></span><span class="sticky__link-text">Аккаунт</span></a></li>
+        </ul>
+      </div>
+      <!-- Sticky :: End-->
+      <!-- Header :: Start-->
+      <header class="header">
+        <div class="container-fluid">
+          <div class="header__logo"><svg width="132" height="24" viewBox="0 0 132 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M93.9902 20.3919L96.8583 24H104.852L98.1208 15.7635L93.9902 20.3919Z" fill="#182045"/>
+<path d="M92.5762 10.2732L89.2388 6.06226H81.2744L88.5717 14.8823L92.5762 10.2732Z" fill="#182045"/>
+<path d="M80.6504 24H88.4131L109.3 0H101.503L80.6504 24Z" fill="#ED0606"/>
+<path d="M127.549 0.0057373H122.639V7.71843H125.848V5.85741H127.551C130.015 5.85741 131.429 4.77907 131.429 2.89679C131.429 1.08602 129.979 0.0057373 127.549 0.0057373ZM125.848 2.33829H127.186C127.652 2.33829 128.208 2.44072 128.208 2.92771C128.208 3.08618 128.208 3.56738 127.186 3.56738H125.848V2.33829Z" fill="#ED0606"/>
+<path d="M117.577 4.27281C117.577 5.24487 117.179 5.67775 116.285 5.67775C115.04 5.67775 114.872 4.96852 114.872 4.27281V0H111.542V4.09502C111.542 6.73291 113.157 8.12819 116.214 8.12819C119.285 8.12819 120.908 6.73291 120.908 4.09502V0H117.579V4.27281H117.577Z" fill="#ED0606"/>
+<path d="M26.6821 14.0977L20.6667 6.06226H13.1328V23.9999H19.4644V13.7788L21.0099 15.9645L27.0835 23.9999H34.6756V23.6675L28.3149 16.4322L26.6821 14.0977Z" fill="#182045"/>
+<path d="M28.3223 13.1643L34.6751 20.4112V6.06226H28.3436L28.3223 13.1643Z" fill="#182045"/>
+<path d="M47.7125 6.06226H37.7139V10.3273H40.9116L37.7139 13.516V23.9999H47.7125C54.9031 23.9999 59.3439 20.6335 59.3439 14.9325C59.342 9.0596 54.7305 6.06226 47.7125 6.06226ZM47.1967 19.2092H44.6466V10.8549H47.1967C50.7784 10.8549 52.2968 12.2057 52.2968 15.0813C52.2949 17.8816 50.7765 19.2092 47.1967 19.2092Z" fill="#182045"/>
+<path d="M68.1153 19.2092V16.9482H76.6227V13.0406H68.1153V10.8549H78.8004V6.06226H61.1826V10.3293H64.5258L61.1826 13.6609V23.9999H79.4869V19.2092H68.1153Z" fill="#182045"/>
+<path d="M0 10.3293H1.51065V13.6088V15.0311V19.7349H0V23.9999H1.51065H8.44336H9.95401V19.7349H8.44336V10.3293H9.95401V6.06226H0V10.3293Z" fill="#182045"/>
+</svg>
+          </div>
+          <div class="header__application">
+            <p class="header__application-text">Приложение</p>
+            <ul class="header__application-menu">
+              <li><a class="header__application-link" href="#">
+                  <svg class="icon-android">
+                    <use xlink:href="sprites/sprite.svg#icon-android"></use>
+                  </svg></a></li>
+              <li><a class="header__application-link" href="#">
+                  <svg class="icon-ios">
+                    <use xlink:href="sprites/sprite.svg#icon-ios"></use>
+                  </svg></a></li>
+            </ul>
+          </div>
+          <div class="header__access"><a class="btn btn--40 btn--white" href="#">
+              <svg class="icon-lock">
+                <use xlink:href="sprites/sprite.svg#icon-lock"></use>
+              </svg>Доступ к сайту</a></div>
+          <nav class="header__nav">
+            <ul class="header__nav-menu">
+              <li><a class="header__nav-link" href="http://sduduexn.beget.tech/">Главная</a></li>
+              <li><a class="header__nav-link" href="http://sduduexn.beget.tech/live/football"><span class="header__nav-live"></span>Live</a></li>
+              <li><a class="header__nav-link" href="http://sduduexn.beget.tech/line/football">Линия</a></li>
+              <li><a class="header__nav-link" href="#">O INDEX</a></li>
+            </ul>
+          </nav>
+          <div class="header__profile"><a class="btn btn--40 btn--white" href="#">
+              <svg class="icon-move">
+                <use xlink:href="sprites/sprite.svg#icon-move"></use>
+              </svg>В профиль</a></div>
+          <p class="header__balance">2 400 ₽</p>
+        </div>
+      </header>
+      <!-- Header :: End-->
+      <!-- Main :: Start-->
+      <main class="main">
+        <!-- Personal :: Start-->
+        <div class="personal">
+          <div class="container-fluid">
+            <div class="personal__wrapper">
+              <div class="personal__sidebar">
+                <div class="personal__user"><span class="personal__user-name">Сидоров Александр Дмитриевич</span><span class="personal__user-balance">2 400 ₽</span></div>
+                <div class="personal__nav">
+                  <ul class="personal__nav-menu">
+                    <li><a class="personal__nav-link" href="profile.html">
+                        <svg class="icon-profile">
+                          <use xlink:href="sprites/sprite.svg#icon-profile"></use>
+                        </svg>Мой профиль</a></li>
+                    <li><a class="personal__nav-link" href="bets.html">
+                        <svg class="icon-bet">
+                          <use xlink:href="sprites/sprite.svg#icon-bet"></use>
+                        </svg>Мои пари</a></li>
+                    <li><a class="personal__nav-link is-active" href="wallet.html">
+                        <svg class="icon-wallet">
+                          <use xlink:href="sprites/sprite.svg#icon-wallet"></use>
+                        </svg>Пополнение и Снятие</a></li>
+                    <li><a class="personal__nav-link" href="bonuses.html">
+                        <svg class="icon-gift">
+                          <use xlink:href="sprites/sprite.svg#icon-gift"></use>
+                        </svg>Бонусы и акции</a></li>
+                    <li><a class="personal__nav-link" href="support.html">
+                        <svg class="icon-support">
+                          <use xlink:href="sprites/sprite.svg#icon-support"></use>
+                        </svg>Поддержка</a></li>
+                    <li><a class="personal__nav-link" href="#">Выход</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="personal__content">
+                <div class="personal__back"><a class="personal__back-link" href="account.html">
+                    <svg class="icon-back">
+                      <use xlink:href="sprites/sprite.svg#icon-back"></use>
+                    </svg>Назад</a></div>
+                <div class="personal__tabs" data-tabs>
+                  <div class="personal__tabs-control">
+                    <button class="personal__tabs-btn is-active" data-tabs-btn="payin">Пополнение</button>
+                    <button class="personal__tabs-btn" data-tabs-btn="payout">Выплата выйгрыша</button>
+                    <button class="personal__tabs-btn" data-tabs-btn="requisites">Мои реквизиты</button>
+                  </div>
+                  <div class="personal__tabs-wrapper">
+                    <div class="personal__tabs-content is-active" data-tabs-content="payin">
+                      <!-- Payments PayIn :: Start-->
+                      <div class="payments" data-methods>
+                        <ul class="payments__methods">
+                          <li>
+                            <div class="payments__method is-active" data-methods-btn="visa-mastercard">
+                              <div class="payments__method-item">
+                                <figure class="payments__method-icon"><img src="images/icons/icon-payments-visa-mastercard.png" width="47" height="40" alt=""></figure>
+                                <div class="payments__method-desc"><span class="payments__method-title">Банковская карта</span><span class="payments__method-commission">Комисия: 
+                                    <mark>0%</mark></span></div>
+                              </div>
+                              <ul class="payments__method-currency">
+                                <li>
+                                  <button class="payments__method-currency-btn is-active">RUB</button>
+                                </li>
+                                <li>
+                                  <button class="payments__method-currency-btn">USD</button>
+                                </li>
+                                <li>
+                                  <button class="payments__method-currency-btn">UAH</button>
+                                </li>
+                              </ul>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="payments__method" data-methods-btn="qiwi">
+                              <div class="payments__method-item">
+                                <figure class="payments__method-icon"><img src="images/icons/icon-payments-qiwi.png" width="39" height="41" alt=""></figure>
+                                <div class="payments__method-desc"><span class="payments__method-title">QIWI</span><span class="payments__method-commission">Комисия: 
+                                    <mark>0%</mark></span></div>
+                              </div>
+                              <ul class="payments__method-currency">
+                                <li>
+                                  <button class="payments__method-currency-btn is-active">RUB</button>
+                                </li>
+                                <li>
+                                  <button class="payments__method-currency-btn">USD</button>
+                                </li>
+                                <li>
+                                  <button class="payments__method-currency-btn">UAH</button>
+                                </li>
+                              </ul>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="payments__method" data-methods-btn="yandex">
+                              <div class="payments__method-item">
+                                <figure class="payments__method-icon"><img src="images/icons/icon-payments-yandex.png" width="30" height="40" alt=""></figure>
+                                <div class="payments__method-desc"><span class="payments__method-title">Яндекс.Деньги</span><span class="payments__method-commission">Комисия: 
+                                    <mark>0%</mark></span></div>
+                              </div>
+                              <ul class="payments__method-currency">
+                                <li>
+                                  <button class="payments__method-currency-btn is-active">RUB</button>
+                                </li>
+                                <li>
+                                  <button class="payments__method-currency-btn">USD</button>
+                                </li>
+                                <li>
+                                  <button class="payments__method-currency-btn">UAH</button>
+                                </li>
+                              </ul>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="payments__method" data-methods-btn="perfectmoney">
+                              <div class="payments__method-item">
+                                <figure class="payments__method-icon"><img src="images/icons/icon-payments-perfectmoney.png" width="40" height="40" alt=""></figure>
+                                <div class="payments__method-desc"><span class="payments__method-title">PerfectMoney</span><span class="payments__method-commission">Комисия: 
+                                    <mark>0%</mark></span></div>
+                              </div>
+                              <ul class="payments__method-currency">
+                                <li>
+                                  <button class="payments__method-currency-btn is-active">RUB</button>
+                                </li>
+                                <li>
+                                  <button class="payments__method-currency-btn">USD</button>
+                                </li>
+                                <li>
+                                  <button class="payments__method-currency-btn">UAH</button>
+                                </li>
+                              </ul>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="payments__method" data-methods-btn="payeer">
+                              <div class="payments__method-item">
+                                <figure class="payments__method-icon"><img src="images/icons/icon-payments-payeer.png" width="48" height="16" alt=""></figure>
+                                <div class="payments__method-desc"><span class="payments__method-title">Payeer</span><span class="payments__method-commission">Комисия: 
+                                    <mark>0%</mark></span></div>
+                              </div>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="payments__method" data-methods-btn="bitcoin">
+                              <div class="payments__method-item">
+                                <figure class="payments__method-icon"><img src="images/icons/icon-payments-bitcoin.png" width="40" height="40" alt=""></figure>
+                                <div class="payments__method-desc"><span class="payments__method-title">Bitcoin</span><span class="payments__method-commission">Комисия: 
+                                    <mark>0%</mark></span></div>
+                              </div>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="payments__method" data-methods-btn="partners">
+                              <div class="payments__method-item">
+                                <figure class="payments__method-icon"></figure>
+                                <div class="payments__method-desc"><span class="payments__method-title">Через партнеров</span><span class="payments__method-commission">Комисия: 
+                                    <mark>1%</mark></span></div>
+                              </div>
+                            </div>
+                          </li>
+                        </ul>
+                        <div class="payments__wrapper">
+                          <div class="payments__content is-active" data-methods-content="visa-mastercard">
+                            <div class="payments__data">
+                              <div class="payments__data-icon">
+                                <svg class="icon-shield">
+                                  <use xlink:href="sprites/sprite.svg#icon-shield"></use>
+                                </svg>
+                              </div>
+                              <div class="payments__data-head"><span class="payments__data-title"><small>Пополнение баланса</small> Банковская карта</span></div>
+                              <div class="payments__data-body">
+                                <div class="payments__data-form">
+                                  <form class="js-validate" action="#">
+                                    <label class="ui-label">Сумма <small>от 100 ₽  до 500 000 ₽</small></label>
+                                    <input class="ui-input" type="text" placeholder="Поле внутри">
+                                    <button class="btn btn--fullwidth btn--red">Продолжить</button>
+                                    <p class="ui-confirm">Продолжив, вы принимаете условия <a href="#">договора о хранении учетных данных</a>. Запрещается использовать чужие банковские карты.</p>
+                                  </form>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="payments__content" data-methods-content="qiwi">
+                            <div class="payments__data">
+                              <div class="payments__data-icon">
+                                <svg class="icon-shield">
+                                  <use xlink:href="sprites/sprite.svg#icon-shield"></use>
+                                </svg>
+                              </div>
+                              <div class="payments__data-head"><span class="payments__data-title"><small>Пополнение баланса</small> QIWI кошелек</span></div>
+                              <div class="payments__data-body">
+                                <div class="payments__data-form">
+                                  <form class="js-validate" action="#">
+                                    <label class="ui-label">Номер кошелька</label>
+                                    <input class="ui-input" type="text" placeholder="">
+                                    <div class="ui-code">
+                                      <div class="ui-code__field">
+                                        <label class="ui-label">Код из смс</label>
+                                        <input class="ui-input" type="text" placeholder="">
+                                      </div>
+                                      <div class="ui-code__action">
+                                        <button class="btn btn--grey" disabled>Получить код</button>
+                                        <p class="ui-timer"><span class="ui-timer__stopwatch">00:38</span><span class="ui-timer__text">Подождите немного, прежде чем запросить новый код </span></p>
+                                      </div>
+                                    </div>
+                                    <button class="btn btn--fullwidth btn--red">Продолжить</button>
+                                  </form>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="payments__content" data-methods-content="yandex">
+                            <div class="payments__data">
+                              <div class="payments__data-icon">
+                                <svg class="icon-shield">
+                                  <use xlink:href="sprites/sprite.svg#icon-shield"></use>
+                                </svg>
+                              </div>
+                              <div class="payments__data-head"><span class="payments__data-title"><small>Пополнение баланса</small> Яндекс.Деньги</span></div>
+                              <div class="payments__data-body">
+                                <div class="payments__data-form">
+                                  <form class="js-validate" action="#">
+                                    <label class="ui-label">Сумма <small>от 100 ₽  до 500 000 ₽</small></label>
+                                    <input class="ui-input" type="text" placeholder="Поле внутри">
+                                    <button class="btn btn--fullwidth btn--red">Продолжить</button>
+                                    <p class="ui-confirm">Продолжив, вы принимаете условия <a href="#">договора о хранении учетных данных</a>. Запрещается использовать чужие банковские карты.</p>
+                                  </form>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="payments__content" data-methods-content="perfectmoney">
+                            <div class="payments__data">
+                              <div class="payments__data-icon">
+                                <svg class="icon-shield">
+                                  <use xlink:href="sprites/sprite.svg#icon-shield"></use>
+                                </svg>
+                              </div>
+                              <div class="payments__data-head"><span class="payments__data-title"><small>Пополнение баланса</small> PerfectMoney</span></div>
+                              <div class="payments__data-body">
+                                <div class="payments__data-form">
+                                  <form class="js-validate" action="#">
+                                    <label class="ui-label">Сумма <small>от 100 ₽  до 500 000 ₽</small></label>
+                                    <input class="ui-input" type="text" placeholder="Поле внутри">
+                                    <button class="btn btn--fullwidth btn--red">Продолжить</button>
+                                    <p class="ui-confirm">Продолжив, вы принимаете условия <a href="#">договора о хранении учетных данных</a>. Запрещается использовать чужие банковские карты.</p>
+                                  </form>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="payments__content" data-methods-content="payeer">
+                            <div class="payments__data">
+                              <div class="payments__data-icon">
+                                <svg class="icon-shield">
+                                  <use xlink:href="sprites/sprite.svg#icon-shield"></use>
+                                </svg>
+                              </div>
+                              <div class="payments__data-head"><span class="payments__data-title"><small>Пополнение баланса</small> Payeer</span></div>
+                              <div class="payments__data-body">
+                                <div class="payments__data-form">
+                                  <form class="js-validate" action="#">
+                                    <label class="ui-label">Сумма <small>от 100 ₽  до 500 000 ₽</small></label>
+                                    <input class="ui-input" type="text" placeholder="Поле внутри">
+                                    <button class="btn btn--fullwidth btn--red">Продолжить</button>
+                                    <p class="ui-confirm">Продолжив, вы принимаете условия <a href="#">договора о хранении учетных данных</a>. Запрещается использовать чужие банковские карты.</p>
+                                  </form>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="payments__content" data-methods-content="bitcoin">
+                            <div class="payments__data">
+                              <div class="payments__data-icon">
+                                <svg class="icon-shield">
+                                  <use xlink:href="sprites/sprite.svg#icon-shield"></use>
+                                </svg>
+                              </div>
+                              <div class="payments__data-head"><span class="payments__data-title"><small>Пополнение баланса</small> Bitcoin</span></div>
+                              <div class="payments__data-body">
+                                <div class="payments__data-form">
+                                  <form class="js-validate" action="#">
+                                    <label class="ui-label">Сумма <small>от 100 ₽  до 500 000 ₽</small></label>
+                                    <input class="ui-input" type="text" placeholder="Поле внутри">
+                                    <button class="btn btn--fullwidth btn--red">Продолжить</button>
+                                    <p class="ui-confirm">Продолжив, вы принимаете условия <a href="#">договора о хранении учетных данных</a>. Запрещается использовать чужие банковские карты.</p>
+                                  </form>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="payments__content" data-methods-content="partners">
+                            <div class="payments__data">
+                              <div class="payments__data-icon">
+                                <svg class="icon-shield">
+                                  <use xlink:href="sprites/sprite.svg#icon-shield"></use>
+                                </svg>
+                              </div>
+                              <div class="payments__data-head"><span class="payments__data-title"><small>Пополнение баланса</small> Через партнеров</span></div>
+                              <div class="payments__data-body">
+                                <div class="payments__data-form">
+                                  <form class="js-validate" action="#">
+                                    <label class="ui-label">Сумма <small>от 100 ₽  до 500 000 ₽</small></label>
+                                    <input class="ui-input" type="text" placeholder="Поле внутри">
+                                    <button class="btn btn--fullwidth btn--red">Продолжить</button>
+                                    <p class="ui-confirm">Продолжив, вы принимаете условия <a href="#">договора о хранении учетных данных</a>. Запрещается использовать чужие банковские карты.</p>
+                                  </form>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- Payments PayIn :: End-->
+                    </div>
+                    <div class="personal__tabs-content" data-tabs-content="payout">
+                      <!-- Payments Payout :: Start-->
+                      <div class="payments" data-methods>
+                        <ul class="payments__methods">
+                          <li>
+                            <div class="payments__method is-active" data-methods-btn="visa-mastercard">
+                              <div class="payments__method-item">
+                                <figure class="payments__method-icon"><img src="images/icons/icon-payments-visa-mastercard.png" width="47" height="40" alt=""></figure>
+                                <div class="payments__method-desc"><span class="payments__method-title">Банковская карта</span><span class="payments__method-commission">Комисия: 
+                                    <mark>0%</mark></span></div>
+                              </div>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="payments__method" data-methods-btn="qiwi">
+                              <div class="payments__method-item">
+                                <figure class="payments__method-icon"><img src="images/icons/icon-payments-qiwi.png" width="39" height="41" alt=""></figure>
+                                <div class="payments__method-desc"><span class="payments__method-title">QIWI</span><span class="payments__method-commission">Комисия: 
+                                    <mark>0%</mark></span></div>
+                              </div>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="payments__method" data-methods-btn="yandex">
+                              <div class="payments__method-item">
+                                <figure class="payments__method-icon"><img src="images/icons/icon-payments-yandex.png" width="30" height="40" alt=""></figure>
+                                <div class="payments__method-desc"><span class="payments__method-title">Яндекс.Деньги</span><span class="payments__method-commission">Комисия: 
+                                    <mark>0%</mark></span></div>
+                              </div>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="payments__method" data-methods-btn="perfectmoney">
+                              <div class="payments__method-item">
+                                <figure class="payments__method-icon"><img src="images/icons/icon-payments-perfectmoney.png" width="40" height="40" alt=""></figure>
+                                <div class="payments__method-desc"><span class="payments__method-title">PerfectMoney</span><span class="payments__method-commission">Комисия: 
+                                    <mark>0%</mark></span></div>
+                              </div>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="payments__method" data-methods-btn="payeer">
+                              <div class="payments__method-item">
+                                <figure class="payments__method-icon"><img src="images/icons/icon-payments-payeer.png" width="48" height="16" alt=""></figure>
+                                <div class="payments__method-desc"><span class="payments__method-title">Payeer</span><span class="payments__method-commission">Комисия: 
+                                    <mark>0%</mark></span></div>
+                              </div>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="payments__method" data-methods-btn="bitcoin">
+                              <div class="payments__method-item">
+                                <figure class="payments__method-icon"><img src="images/icons/icon-payments-bitcoin.png" width="40" height="40" alt=""></figure>
+                                <div class="payments__method-desc"><span class="payments__method-title">Bitcoin</span><span class="payments__method-commission">Комисия: 
+                                    <mark>0%</mark></span></div>
+                              </div>
+                            </div>
+                          </li>
+                        </ul>
+                        <div class="payments__wrapper">
+                          <div class="payments__content is-active" data-methods-content="visa-mastercard">
+                            <div class="payments__data">
+                              <div class="payments__data-icon">
+                                <svg class="icon-shield">
+                                  <use xlink:href="sprites/sprite.svg#icon-shield"></use>
+                                </svg>
+                              </div>
+                              <div class="payments__data-head"><span class="payments__data-title"><small>Выплата на</small> Банковская карта</span></div>
+                              <div class="payments__data-body">
+                                <div class="payments__data-form">
+                                  <form class="js-validate" action="#">
+                                    <label class="ui-label">Сумма <small>от 100 ₽  до 500 000 ₽</small></label>
+                                    <input class="ui-input" type="text" placeholder="Поле внутри">
+                                    <button class="btn btn--fullwidth btn--red">Продолжить</button>
+                                    <p class="ui-confirm">Продолжив, вы принимаете условия <a href="#">договора о хранении учетных данных</a>. Запрещается использовать чужие банковские карты.</p>
+                                  </form>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="payments__content" data-methods-content="qiwi">
+                            <div class="payments__data">
+                              <div class="payments__data-icon">
+                                <svg class="icon-shield">
+                                  <use xlink:href="sprites/sprite.svg#icon-shield"></use>
+                                </svg>
+                              </div>
+                              <div class="payments__data-head"><span class="payments__data-title"><small>Выплата на</small> QIWI кошелек</span></div>
+                              <div class="payments__data-body">
+                                <div class="payments__data-form">
+                                  <form class="js-validate" action="#">
+                                    <label class="ui-label">Номер кошелька</label>
+                                    <input class="ui-input" type="text" placeholder="">
+                                    <div class="ui-code">
+                                      <div class="ui-code__field">
+                                        <label class="ui-label">Код из смс</label>
+                                        <input class="ui-input" type="text" placeholder="">
+                                      </div>
+                                      <div class="ui-code__action">
+                                        <button class="btn btn--grey" disabled>Получить код</button>
+                                        <p class="ui-timer"><span class="ui-timer__stopwatch">00:38</span><span class="ui-timer__text">Подождите немного, прежде чем запросить новый код </span></p>
+                                      </div>
+                                    </div>
+                                    <button class="btn btn--fullwidth btn--red">Продолжить</button>
+                                  </form>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="payments__content" data-methods-content="yandex">
+                            <div class="payments__data">
+                              <div class="payments__data-icon">
+                                <svg class="icon-shield">
+                                  <use xlink:href="sprites/sprite.svg#icon-shield"></use>
+                                </svg>
+                              </div>
+                              <div class="payments__data-head"><span class="payments__data-title"><small>Выплата на</small> Яндекс.Деньги</span></div>
+                              <div class="payments__data-body">
+                                <div class="payments__data-form">
+                                  <form class="js-validate" action="#">
+                                    <label class="ui-label">Сумма <small>от 100 ₽  до 500 000 ₽</small></label>
+                                    <input class="ui-input" type="text" placeholder="Поле внутри">
+                                    <button class="btn btn--fullwidth btn--red">Продолжить</button>
+                                    <p class="ui-confirm">Продолжив, вы принимаете условия <a href="#">договора о хранении учетных данных</a>. Запрещается использовать чужие банковские карты.</p>
+                                  </form>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="payments__content" data-methods-content="perfectmoney">
+                            <div class="payments__data">
+                              <div class="payments__data-icon">
+                                <svg class="icon-shield">
+                                  <use xlink:href="sprites/sprite.svg#icon-shield"></use>
+                                </svg>
+                              </div>
+                              <div class="payments__data-head"><span class="payments__data-title"><small>Выплата на</small> PerfectMoney</span></div>
+                              <div class="payments__data-body">
+                                <div class="payments__data-form">
+                                  <form class="js-validate" action="#">
+                                    <label class="ui-label">Сумма <small>от 100 ₽  до 500 000 ₽</small></label>
+                                    <input class="ui-input" type="text" placeholder="Поле внутри">
+                                    <button class="btn btn--fullwidth btn--red">Продолжить</button>
+                                    <p class="ui-confirm">Продолжив, вы принимаете условия <a href="#">договора о хранении учетных данных</a>. Запрещается использовать чужие банковские карты.</p>
+                                  </form>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="payments__content" data-methods-content="payeer">
+                            <div class="payments__data">
+                              <div class="payments__data-icon">
+                                <svg class="icon-shield">
+                                  <use xlink:href="sprites/sprite.svg#icon-shield"></use>
+                                </svg>
+                              </div>
+                              <div class="payments__data-head"><span class="payments__data-title"><small>Выплата на</small> Payeer</span></div>
+                              <div class="payments__data-body">
+                                <div class="payments__data-form">
+                                  <form class="js-validate" action="#">
+                                    <label class="ui-label">Сумма <small>от 100 ₽  до 500 000 ₽</small></label>
+                                    <input class="ui-input" type="text" placeholder="Поле внутри">
+                                    <button class="btn btn--fullwidth btn--red">Продолжить</button>
+                                    <p class="ui-confirm">Продолжив, вы принимаете условия <a href="#">договора о хранении учетных данных</a>. Запрещается использовать чужие банковские карты.</p>
+                                  </form>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="payments__content" data-methods-content="bitcoin">
+                            <div class="payments__data">
+                              <div class="payments__data-icon">
+                                <svg class="icon-shield">
+                                  <use xlink:href="sprites/sprite.svg#icon-shield"></use>
+                                </svg>
+                              </div>
+                              <div class="payments__data-head"><span class="payments__data-title"><small>Выплата на</small> Bitcoin</span></div>
+                              <div class="payments__data-body">
+                                <div class="payments__data-form">
+                                  <form class="js-validate" action="#">
+                                    <label class="ui-label">Сумма <small>от 100 ₽  до 500 000 ₽</small></label>
+                                    <input class="ui-input" type="text" placeholder="Поле внутри">
+                                    <button class="btn btn--fullwidth btn--red">Продолжить</button>
+                                    <p class="ui-confirm">Продолжив, вы принимаете условия <a href="#">договора о хранении учетных данных</a>. Запрещается использовать чужие банковские карты.</p>
+                                  </form>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- Payments Payout:: End-->
+                    </div>
+                    <div class="personal__tabs-content" data-tabs-content="requisites">
+                      <!-- Payments Requisites :: Start-->
+                      <div class="payments" data-methods>
+                        <ul class="payments__methods">
+                          <li>
+                            <div class="payments__method is-active" data-methods-btn="visa-mastercard">
+                              <div class="payments__method-item">
+                                <figure class="payments__method-icon"><img src="images/icons/icon-payments-visa-mastercard.png" width="47" height="40" alt=""></figure>
+                                <div class="payments__method-desc"><span class="payments__method-title">Банковская карта</span><span class="payments__method-commission">Комисия: 
+                                    <mark>0%</mark></span></div>
+                              </div>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="payments__method" data-methods-btn="qiwi">
+                              <div class="payments__method-item">
+                                <figure class="payments__method-icon"><img src="images/icons/icon-payments-qiwi.png" width="39" height="41" alt=""></figure>
+                                <div class="payments__method-desc"><span class="payments__method-title">QIWI</span><span class="payments__method-commission">Комисия: 
+                                    <mark>0%</mark></span></div>
+                              </div>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="payments__method" data-methods-btn="yandex">
+                              <div class="payments__method-item">
+                                <figure class="payments__method-icon"><img src="images/icons/icon-payments-yandex.png" width="30" height="40" alt=""></figure>
+                                <div class="payments__method-desc"><span class="payments__method-title">Яндекс.Деньги</span><span class="payments__method-commission">Комисия: 
+                                    <mark>0%</mark></span></div>
+                              </div>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="payments__method" data-methods-btn="perfectmoney">
+                              <div class="payments__method-item">
+                                <figure class="payments__method-icon"><img src="images/icons/icon-payments-perfectmoney.png" width="40" height="40" alt=""></figure>
+                                <div class="payments__method-desc"><span class="payments__method-title">PerfectMoney</span><span class="payments__method-commission">Комисия: 
+                                    <mark>0%</mark></span></div>
+                              </div>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="payments__method" data-methods-btn="payeer">
+                              <div class="payments__method-item">
+                                <figure class="payments__method-icon"><img src="images/icons/icon-payments-payeer.png" width="48" height="16" alt=""></figure>
+                                <div class="payments__method-desc"><span class="payments__method-title">Payeer</span><span class="payments__method-commission">Комисия: 
+                                    <mark>0%</mark></span></div>
+                              </div>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="payments__method" data-methods-btn="bitcoin">
+                              <div class="payments__method-item">
+                                <figure class="payments__method-icon"><img src="images/icons/icon-payments-bitcoin.png" width="40" height="40" alt=""></figure>
+                                <div class="payments__method-desc"><span class="payments__method-title">Bitcoin</span><span class="payments__method-commission">Комисия: 
+                                    <mark>0%</mark></span></div>
+                              </div>
+                            </div>
+                          </li>
+                        </ul>
+                        <div class="payments__wrapper">
+                          <div class="payments__content is-active" data-methods-content="visa-mastercard">
+                            <div class="payments__data">
+                              <div class="payments__data-icon">
+                                <svg class="icon-shield">
+                                  <use xlink:href="sprites/sprite.svg#icon-shield"></use>
+                                </svg>
+                              </div>
+                              <div class="payments__data-head"><span class="payments__data-title"><small>Сохранение</small> Банковская карта</span></div>
+                              <div class="payments__data-body">
+                                <div class="payments__data-form">
+                                  <form class="js-validate" action="#">
+                                    <label class="ui-label">Номер карты</label>
+                                    <input class="ui-input js-mask-card" type="text" placeholder="2234 3235 5345 4323">
+                                    <label class="ui-label">ФИ на карте</label>
+                                    <input class="ui-input" type="text" placeholder="MIKHAIL SEDAKOV">
+                                    <label class="ui-label">Тип карты</label>
+                                    <div class="ui-type">
+                                      <label class="ui-type__check">
+                                        <input class="ui-type__input" type="radio" name="card_type" checked><span class="ui-type__btn"><img src="images/icons/icon-type-visa.png" width="60" height="20" alt=""></span>
+                                      </label>
+                                      <label class="ui-type__check">
+                                        <input class="ui-type__input" type="radio" name="card_type"><span class="ui-type__btn"><img src="images/icons/icon-type-mastercard.png" width="61" height="32" alt=""></span>
+                                      </label>
+                                      <label class="ui-type__check">
+                                        <input class="ui-type__input" type="radio" name="card_type"><span class="ui-type__btn"><img src="images/icons/icon-type-maestro.png" width="50" height="31" alt=""></span>
+                                      </label>
+                                      <label class="ui-type__check">
+                                        <input class="ui-type__input" type="radio" name="card_type"><span class="ui-type__btn"><img src="images/icons/icon-type-mir.png" width="71" height="21" alt=""></span>
+                                      </label>
+                                    </div>
+                                    <p class="ui-caption">Сервис запомнит данные карты, но никогда не спишет деньги с неё без вашего разрешения.<br>Все данные защищены по международному стандарту PCI DSS.</p>
+                                    <button class="btn btn--fullwidth btn--red">Сохранить</button>
+                                  </form>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="payments__cards">
+                              <p class="payments__cards-title">Ваши привязанные карты</p>
+                              <ul class="payments__cards-grid">
+                                <li>
+                                  <div class="payments__cards-item"><span class="payments__cards-item-delete">
+                                      <svg class="icon-delete">
+                                        <use xlink:href="sprites/sprite.svg#icon-delete"></use>
+                                      </svg></span><span class="payments__cards-item-icon"><img src="images/icons/icon-type-visa.png" alt=""></span><span class="payments__cards-item-number">** 3456</span></div>
+                                  <p class="payments__cards-caption">Используется</p>
+                                </li>
+                                <li>
+                                  <div class="payments__cards-item"><span class="payments__cards-item-delete">
+                                      <svg class="icon-delete">
+                                        <use xlink:href="sprites/sprite.svg#icon-delete"></use>
+                                      </svg></span><span class="payments__cards-item-icon"><img src="images/icons/icon-type-mastercard.png" alt=""></span><span class="payments__cards-item-number">** 4524</span></div>
+                                  <p class="payments__cards-caption">Используется</p>
+                                </li>
+                                <li>
+                                  <div class="payments__cards-item is-active"><span class="payments__cards-item-delete">
+                                      <svg class="icon-delete">
+                                        <use xlink:href="sprites/sprite.svg#icon-delete"></use>
+                                      </svg></span><span class="payments__cards-item-icon"><img src="images/icons/icon-type-maestro.png" alt=""></span><span class="payments__cards-item-number">** 1245</span></div>
+                                  <p class="payments__cards-caption">Используется</p>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="payments__content" data-methods-content="qiwi">
+                            <div class="payments__data">
+                              <div class="payments__data-icon">
+                                <svg class="icon-shield">
+                                  <use xlink:href="sprites/sprite.svg#icon-shield"></use>
+                                </svg>
+                              </div>
+                              <div class="payments__data-head"><span class="payments__data-title"><small>Сохранение</small> QIWI кошелек</span></div>
+                              <div class="payments__data-body">
+                                <div class="payments__data-form">
+                                  <form class="js-validate" action="#">
+                                    <label class="ui-label">Номер кошелька</label>
+                                    <input class="ui-input" type="text" placeholder="">
+                                    <div class="ui-code">
+                                      <div class="ui-code__field">
+                                        <label class="ui-label">Код из смс</label>
+                                        <input class="ui-input" type="text" placeholder="">
+                                      </div>
+                                      <div class="ui-code__action">
+                                        <button class="btn btn--grey" disabled>Получить код</button>
+                                        <p class="ui-timer"><span class="ui-timer__stopwatch">00:38</span><span class="ui-timer__text">Подождите немного, прежде чем запросить новый код </span></p>
+                                      </div>
+                                    </div>
+                                    <button class="btn btn--fullwidth btn--red">Продолжить</button>
+                                  </form>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="payments__content" data-methods-content="yandex">
+                            <div class="payments__data">
+                              <div class="payments__data-icon">
+                                <svg class="icon-shield">
+                                  <use xlink:href="sprites/sprite.svg#icon-shield"></use>
+                                </svg>
+                              </div>
+                              <div class="payments__data-head"><span class="payments__data-title"><small>Сохранение</small> Яндекс.Деньги</span></div>
+                              <div class="payments__data-body">
+                                <div class="payments__data-form">
+                                  <form class="js-validate" action="#">
+                                    <label class="ui-label">Номер кошелька</label>
+                                    <input class="ui-input" type="text" placeholder="">
+                                    <div class="ui-code">
+                                      <div class="ui-code__field">
+                                        <label class="ui-label">Код из смс</label>
+                                        <input class="ui-input" type="text" placeholder="">
+                                      </div>
+                                      <div class="ui-code__action">
+                                        <button class="btn btn--grey" disabled>Получить код</button>
+                                        <p class="ui-timer"><span class="ui-timer__stopwatch">00:38</span><span class="ui-timer__text">Подождите немного, прежде чем запросить новый код </span></p>
+                                      </div>
+                                    </div>
+                                    <button class="btn btn--fullwidth btn--red">Продолжить</button>
+                                  </form>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="payments__content" data-methods-content="perfectmoney">
+                            <div class="payments__data">
+                              <div class="payments__data-icon">
+                                <svg class="icon-shield">
+                                  <use xlink:href="sprites/sprite.svg#icon-shield"></use>
+                                </svg>
+                              </div>
+                              <div class="payments__data-head"><span class="payments__data-title"><small>Сохранение</small> PerfectMoney</span></div>
+                              <div class="payments__data-body">
+                                <div class="payments__data-form">
+                                  <form class="js-validate" action="#">
+                                    <label class="ui-label">Номер кошелька</label>
+                                    <input class="ui-input" type="text" placeholder="">
+                                    <div class="ui-code">
+                                      <div class="ui-code__field">
+                                        <label class="ui-label">Код из смс</label>
+                                        <input class="ui-input" type="text" placeholder="">
+                                      </div>
+                                      <div class="ui-code__action">
+                                        <button class="btn btn--grey" disabled>Получить код</button>
+                                        <p class="ui-timer"><span class="ui-timer__stopwatch">00:38</span><span class="ui-timer__text">Подождите немного, прежде чем запросить новый код </span></p>
+                                      </div>
+                                    </div>
+                                    <button class="btn btn--fullwidth btn--red">Продолжить</button>
+                                  </form>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="payments__content" data-methods-content="payeer">
+                            <div class="payments__data">
+                              <div class="payments__data-icon">
+                                <svg class="icon-shield">
+                                  <use xlink:href="sprites/sprite.svg#icon-shield"></use>
+                                </svg>
+                              </div>
+                              <div class="payments__data-head"><span class="payments__data-title"><small>Сохранение</small> Payeer</span></div>
+                              <div class="payments__data-body">
+                                <div class="payments__data-form">
+                                  <form class="js-validate" action="#">
+                                    <label class="ui-label">Номер кошелька</label>
+                                    <input class="ui-input" type="text" placeholder="">
+                                    <div class="ui-code">
+                                      <div class="ui-code__field">
+                                        <label class="ui-label">Код из смс</label>
+                                        <input class="ui-input" type="text" placeholder="">
+                                      </div>
+                                      <div class="ui-code__action">
+                                        <button class="btn btn--grey" disabled>Получить код</button>
+                                        <p class="ui-timer"><span class="ui-timer__stopwatch">00:38</span><span class="ui-timer__text">Подождите немного, прежде чем запросить новый код </span></p>
+                                      </div>
+                                    </div>
+                                    <button class="btn btn--fullwidth btn--red">Продолжить</button>
+                                  </form>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="payments__content" data-methods-content="bitcoin">
+                            <div class="payments__data">
+                              <div class="payments__data-icon">
+                                <svg class="icon-shield">
+                                  <use xlink:href="sprites/sprite.svg#icon-shield"></use>
+                                </svg>
+                              </div>
+                              <div class="payments__data-head"><span class="payments__data-title"><small>Сохранение</small> Bitcoin</span></div>
+                              <div class="payments__data-body">
+                                <div class="payments__data-form">
+                                  <form class="js-validate" action="#">
+                                    <label class="ui-label">Номер кошелька</label>
+                                    <input class="ui-input" type="text" placeholder="">
+                                    <div class="ui-code">
+                                      <div class="ui-code__field">
+                                        <label class="ui-label">Код из смс</label>
+                                        <input class="ui-input" type="text" placeholder="">
+                                      </div>
+                                      <div class="ui-code__action">
+                                        <button class="btn btn--grey" disabled>Получить код</button>
+                                        <p class="ui-timer"><span class="ui-timer__stopwatch">00:38</span><span class="ui-timer__text">Подождите немного, прежде чем запросить новый код </span></p>
+                                      </div>
+                                    </div>
+                                    <button class="btn btn--fullwidth btn--red">Продолжить</button>
+                                  </form>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- Payments Requisites:: End-->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Personal :: End-->
+      </main>
+      <!-- Main :: End-->
+      <!-- Footer :: Start-->
+      <footer class="footer">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-xl order-xl-2">
+              <div class="footer__nav">
+                <div class="row">
+                  <div class="col-6 col-md-3"><strong class="footer__nav-title">Помощь</strong>
+                    <ul class="footer__nav-menu">
+                      <li><a class="footer__nav-link" href="#">Ваша первая ставка</a></li>
+                      <li><a class="footer__nav-link" href="#">Депозиты</a></li>
+                      <li><a class="footer__nav-link" href="#">Выплаты</a></li>
+                      <li><a class="footer__nav-link" href="#">FAQ</a></li>
+                      <li><a class="footer__nav-link" href="#">Служба поддержки</a></li>
+                    </ul>
+                  </div>
+                  <div class="col-6 col-md-3"><strong class="footer__nav-title">Сервисы</strong>
+                    <ul class="footer__nav-menu">
+                      <li><a class="footer__nav-link" href="#">Ставки LIVE</a></li>
+                      <li><a class="footer__nav-link" href="#">Товарный знак</a></li>
+                      <li><a class="footer__nav-link" href="#">Бонусы и акции</a></li>
+                    </ul>
+                  </div>
+                  <div class="col-6 col-md-3"><strong class="footer__nav-title">Index</strong>
+                    <ul class="footer__nav-menu">
+                      <li><a class="footer__nav-link" href="#">О компании</a></li>
+                      <li><a class="footer__nav-link" href="#">Правила и Условия</a></li>
+                      <li><a class="footer__nav-link" href="#">Партнерская программа</a></li>
+                      <li><a class="footer__nav-link" href="#">Политика конфиденциальности</a></li>
+                    </ul>
+                  </div>
+                  <div class="col-6 col-md-3"><strong class="footer__nav-title">Личный кабинет</strong>
+                    <ul class="footer__nav-menu">
+                      <li><a class="footer__nav-link" href="#">Вход</a></li>
+                      <li><a class="footer__nav-link" href="#">Регистрация</a></li>
+                      <li><a class="footer__nav-link" href="#">Смена пароля</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col col-xl-auto order-xl-3">
+              <div class="footer__social">
+                <p class="footer__social-label">Социальные сети</p>
+                <ul class="footer__social-menu">
+                  <li><a class="footer__social-link" href="#">
+                      <svg class="icon-social-twitter">
+                        <use xlink:href="sprites/sprite.svg#icon-social-twitter"></use>
+                      </svg></a></li>
+                  <li><a class="footer__social-link" href="#">
+                      <svg class="icon-social-instagram">
+                        <use xlink:href="sprites/sprite.svg#icon-social-instagram"></use>
+                      </svg></a></li>
+                  <li><a class="footer__social-link" href="#">
+                      <svg class="icon-social-facebook">
+                        <use xlink:href="sprites/sprite.svg#icon-social-facebook"></use>
+                      </svg></a></li>
+                  <li><a class="footer__social-link" href="#">
+                      <svg class="icon-social-vk">
+                        <use xlink:href="sprites/sprite.svg#icon-social-vk"></use>
+                      </svg></a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-auto col-xl-auto order-xl-1">
+              <div class="footer__logo"><svg width="132" height="24" viewBox="0 0 132 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M93.9902 20.3919L96.8583 24H104.852L98.1208 15.7635L93.9902 20.3919Z" fill="#182045"/>
+<path d="M92.5762 10.2732L89.2388 6.06226H81.2744L88.5717 14.8823L92.5762 10.2732Z" fill="#182045"/>
+<path d="M80.6504 24H88.4131L109.3 0H101.503L80.6504 24Z" fill="#ED0606"/>
+<path d="M127.549 0.0057373H122.639V7.71843H125.848V5.85741H127.551C130.015 5.85741 131.429 4.77907 131.429 2.89679C131.429 1.08602 129.979 0.0057373 127.549 0.0057373ZM125.848 2.33829H127.186C127.652 2.33829 128.208 2.44072 128.208 2.92771C128.208 3.08618 128.208 3.56738 127.186 3.56738H125.848V2.33829Z" fill="#ED0606"/>
+<path d="M117.577 4.27281C117.577 5.24487 117.179 5.67775 116.285 5.67775C115.04 5.67775 114.872 4.96852 114.872 4.27281V0H111.542V4.09502C111.542 6.73291 113.157 8.12819 116.214 8.12819C119.285 8.12819 120.908 6.73291 120.908 4.09502V0H117.579V4.27281H117.577Z" fill="#ED0606"/>
+<path d="M26.6821 14.0977L20.6667 6.06226H13.1328V23.9999H19.4644V13.7788L21.0099 15.9645L27.0835 23.9999H34.6756V23.6675L28.3149 16.4322L26.6821 14.0977Z" fill="#182045"/>
+<path d="M28.3223 13.1643L34.6751 20.4112V6.06226H28.3436L28.3223 13.1643Z" fill="#182045"/>
+<path d="M47.7125 6.06226H37.7139V10.3273H40.9116L37.7139 13.516V23.9999H47.7125C54.9031 23.9999 59.3439 20.6335 59.3439 14.9325C59.342 9.0596 54.7305 6.06226 47.7125 6.06226ZM47.1967 19.2092H44.6466V10.8549H47.1967C50.7784 10.8549 52.2968 12.2057 52.2968 15.0813C52.2949 17.8816 50.7765 19.2092 47.1967 19.2092Z" fill="#182045"/>
+<path d="M68.1153 19.2092V16.9482H76.6227V13.0406H68.1153V10.8549H78.8004V6.06226H61.1826V10.3293H64.5258L61.1826 13.6609V23.9999H79.4869V19.2092H68.1153Z" fill="#182045"/>
+<path d="M0 10.3293H1.51065V13.6088V15.0311V19.7349H0V23.9999H1.51065H8.44336H9.95401V19.7349H8.44336V10.3293H9.95401V6.06226H0V10.3293Z" fill="#182045"/>
+</svg>
+              </div>
+              <div class="footer__application">
+                <p class="footer__application-text">Приложение</p>
+                <ul class="footer__application-menu">
+                  <li><a class="footer__application-link" href="#">
+                      <svg class="icon-android">
+                        <use xlink:href="sprites/sprite.svg#icon-android"></use>
+                      </svg></a></li>
+                  <li><a class="footer__application-link" href="#">
+                      <svg class="icon-ios">
+                        <use xlink:href="sprites/sprite.svg#icon-ios"></use>
+                      </svg></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <p class="footer__copyright">© 2019 Index. Все права защищены.</p>
+        </div>
+      </footer>
+      <!-- Footer :: End-->
+      <!-- Popups :: Start-->
+      <div class="fancybox-is-hidden popup" id="popup-txt">
+        <button class="popup__close" data-fancybox-close>
+          <svg class="icon-close" width="9" height="9" viewBox="0 0 9 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M1 1L8.39013 8.39013" stroke="currentColor"/>
+<path d="M8.39014 1L1.00001 8.39013" stroke="currentColor"/>
+</svg>Закрыть
+        </button>
+        <div class="popup__txt">
+          <h1>Букмекерский агент INDEX предоставляет игрокам бонус на первый депозит в размере 200% от его суммы.</h1>
+          <p>Мы рады новым клиентам и с удовольствием утроим им депозит за правильный выбор! </p>
+          <h2>Условия:</h2>
+          <ol>
+            <li>Максимальная сумма бонуса составляет 50.000р.</li>
+            <li>Бонусное предложение доступно исключительно для новых клиентов Букмекерского агента INDEX.</li>
+            <li>Чтобы принять участие в акции, необходимо пополнить свой счет единовременным платежом на сумму до 25.000р. (Игрок автоматически получит бонус 200%, то есть до максимальной суммы бонусного предложения - 50.000р) </li>
+            <li>Для отыгрыша средств с бонусного счета игроку необходимо осуществлять ординарные ставки с коэффициентом от 3 и выше. В случае победы по такой ставке игроку будет дополнительно начислено 5% от суммы ставки по данному исходу с бонусного счета.</li>
+          </ol>
+          <h2>Пример:</h2>
+          <p>После регистрации игрок совершает депозит на сумму 10.000р., система автоматически выдает игроку бонус в размере 200% от суммы депозита. </p>
+          <p>Основной счет: 10.000р. / Бонусный счет: 20.000р.</p>
+          <p>Игрок делает ставку 10000р с коэффициентом 3 на победу футбольной команды. </p>
+          <p>Ставка выигрывает, 10.000р. х 3 = 30.000р. + 500р. (5% от суммы ставки) = 30.500р. </p>
+          <p>Итого. Основной счет: 30.500р. Бонусный счет: 19.500р.</p><small>Также стоит принять во внимание: <br>- Деньги, отыгранные с бонусного счета на основной счет, становятся моментально доступны для обращения.  <br>- Ставки, рассчитанные с коэффициентом меньше чем 3, а также ставки, по которым был произведен возврат средств не учитываются при отыгрыше бонусных средств.  <br>- Компания оставляет за собой право в любой момент акции провести дополнительную верификацию владельца аккаунта или ограничить участие игрока в данной акции.</small>
+        </div>
+      </div>
+      <div class="fancybox-is-hidden popup" id="popup-support">
+        <button class="popup__close" data-fancybox-close>
+          <svg class="icon-close" width="9" height="9" viewBox="0 0 9 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M1 1L8.39013 8.39013" stroke="currentColor"/>
+<path d="M8.39014 1L1.00001 8.39013" stroke="currentColor"/>
+</svg>Закрыть
+        </button>
+        <div class="popup__form">
+          <form action="#" method="post" enctype="multipart/form-data">
+            <div class="row">
+              <div class="col-md-6">
+                <label class="ui-label">Тип запроса</label>
+                <div class="ui-select">
+                  <select>
+                    <option>Проблема с выплатой на сайте</option>
+                    <option>Проблема с пополнением на сайте</option>
+                    <option>Вопрос по расчету</option>
+                    <option>Прочие вопросы</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <label class="ui-label">Тема запроса</label>
+                <div class="ui-select">
+                  <select>
+                    <option>Банковская карта</option>
+                    <option>Банковская карта 1</option>
+                    <option>Банковская карта 2</option>
+                    <option>Банковская карта 3</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col-md-12">
+                <label class="ui-label">Вопрос</label>
+                <textarea class="ui-textarea"></textarea>
+              </div>
+              <div class="col-md-12">
+                <div class="ui-upload">
+                  <label class="ui-upload__dropzone">
+                    <input class="ui-upload__input" type="file" multiple><span class="ui-upload__caption">Переместите файлы сюда<br>или 
+                      <mark>выберите сами</mark></span>
+                  </label>
+                  <p class="ui-upload__info">Вы можете загружать файлы форматов: jpg, jpeg, rtf, txt, png, gif, pdf, log, размером, не превышающим 7 МБ. Файл будет автоматически удален через 7 дней.</p>
+                </div>
+              </div>
+            </div>
+            <div class="ui-action">
+              <button class="btn btn--red">Отправить запрос</button>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="fancybox-is-hidden popup" id="popup-question">
+        <button class="popup__close" data-fancybox-close>
+          <svg class="icon-close" width="9" height="9" viewBox="0 0 9 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M1 1L8.39013 8.39013" stroke="currentColor"/>
+<path d="M8.39014 1L1.00001 8.39013" stroke="currentColor"/>
+</svg>Закрыть
+        </button>
+        <div class="popup__question">
+          <div class="popup__question-status popup__question-status--green">Вопрос решен</div>
+          <div class="popup__question-head"><strong class="popup__question-title">Проблема с выплатой на сайте</strong>
+            <div class="row">
+              <div class="col"><span class="popup__question-category">Банковская карта</span></div>
+              <div class="col-auto"><span class="popup__question-info">23423525423  —  12.02.2020, 14:20</span></div>
+            </div>
+          </div>
+          <div class="popup__question-body">
+            <div class="popup__question-desc"><strong class="popup__question-desc-title">Описание проблемы</strong>
+              <p class="popup__question-desc-text">Функция выпуклая кверху, как бы это ни казалось парадоксальным, продуцирует график функции. Тем не менее, сновидение тривиально. Перцепция фактически обретает многомерный эриксоновский гипноз. Теологическая парадигма текстологически вызывает комплексный марксизм. Контрпример, иcходя из того, что поддерживает невероятный интеграл по бесконечной области. </p>
+              <ul class="popup__question-desc-info">
+                <li><a href="#">Скриншот с экрана 134433</a></li>
+                <li><a href="#">Фото подтверждение</a></li>
+                <li><a href="#">Скрин 213</a></li>
+              </ul>
+            </div>
+            <div class="popup__question-item popup__question-item--admin">
+              <blockquote class="popup__question-item-blockquote">
+                <p>Поскольку плиты перестали сближаться, соединение дискретно редуцирует интрузивный вектор. Как мы уже знаем, питание прогиба исходным материалом иллюстрирует резкий гранит, что несомненно приведет нас к истине. Шельф, общеизвестно, развивает Млечный Путь. Кризис диссонирует эмпирический болид . В отличие от давно известных астрономам планет земной группы, филогенез начинает психоанализ.</p>
+              </blockquote>
+              <div class="popup__question-item-group">
+                <ul class="popup__question-item-info">
+                  <li>Адмистрация</li>
+                  <li>13.02.2020</li>
+                  <li>
+                    <mark>14:30</mark>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="popup__question-item popup__question-item--user">
+              <blockquote class="popup__question-item-blockquote">
+                <p>Но так как книга Фридмана адресована руководителям и работникам образования, то есть первообразная функция понимает субаквальный скрытый смысл.</p>
+              </blockquote>
+              <div class="popup__question-item-group">
+                <ul class="popup__question-item-info">
+                  <li>Вы</li>
+                  <li>13.02.2020</li>
+                  <li>
+                    <mark>14:30</mark>
+                  </li>
+                </ul>
+                <ul class="popup__question-item-attached">
+                  <li><a href="#">Скриншот экрана 12233</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="popup__question-item popup__question-item--admin">
+              <blockquote class="popup__question-item-blockquote">
+                <p>Поскольку плиты перестали сближаться, соединение дискретно редуцирует интрузивный вектор. Как мы уже знаем, питание прогиба исходным материалом иллюстрирует резкий гранит, что несомненно приведет нас к истине. Шельф, общеизвестно, развивает Млечный Путь. Кризис диссонирует эмпирический болид . В отличие от давно известных астрономам планет земной группы, филогенез начинает психоанализ.</p>
+              </blockquote>
+              <div class="popup__question-item-group">
+                <ul class="popup__question-item-info">
+                  <li>Адмистрация</li>
+                  <li>13.02.2020</li>
+                  <li>
+                    <mark>14:30</mark>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="popup__question-foot">
+            <div class="popup__question-form">
+              <form action="#">
+                <div class="row">
+                  <div class="col-md">
+                    <div class="row">
+                      <div class="col">
+                        <input class="ui-input" type="text" placeholder="Ваш текст">
+                        <p class="ui-attached"><span class="ui-attached__delete">
+                            <svg class="icon-delete">
+                              <use xlink:href="sprites/sprite.svg#icon-delete"></use>
+                            </svg></span><span class="ui-attached__text">Скриншот с экрана 134433</span></p>
+                      </div>
+                      <div class="col-auto">
+                        <label class="ui-file">
+                          <input class="ui-file__input" type="file">
+                          <svg class="icon-file">
+                            <use xlink:href="sprites/sprite.svg#icon-file"></use>
+                          </svg>
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-auto">
+                    <button class="btn btn--red">Ответить</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Popups :: End-->
+    </div>
+    <!-- Scripts :: Start-->
+    <script src="js/plugins.min.js"></script>
+    <script src="js/app.min.js"></script>
+    <!-- Scripts :: End-->
+  </body>
+</html>

@@ -1,0 +1,118 @@
+$path: '/font/icon/';
+
+@font-face {
+  font-family: 'icon';
+  src: url($path + 'icon.ttf?fte80o') format('truetype'),
+       url($path + 'icon.woff?fte80o') format('woff'),
+       url($path + 'icon.svg?fte80o#icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+@mixin icon {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  @include icon;
+}
+
+.icon-plus:before {
+  content: "\e91c";
+}
+.icon-close:before {
+  content: "\e91a";
+}
+.icon-file:before {
+  content: "\e91b";
+}
+.icon-flame:before {
+  content: "\e919";
+}
+.icon-down:before {
+  content: "\e900";
+}
+.icon-left:before {
+  content: "\e916";
+}
+.icon-right:before {
+  content: "\e917";
+}
+.icon-up:before {
+  content: "\e918";
+}
+.icon-android:before {
+  content: "\e901";
+}
+.icon-ios:before {
+  content: "\e902";
+}
+.icon-lock:before {
+  content: "\e903";
+}
+.icon-vk:before {
+  content: "\e904";
+}
+.icon-facebook:before {
+  content: "\e905";
+}
+.icon-twitter:before {
+  content: "\e906";
+}
+.icon-instagram:before {
+  content: "\e907";
+}
+.icon-tv:before {
+  content: "\e908";
+}
+.icon-coupon:before {
+  content: "\e909";
+}
+.icon-user:before {
+  content: "\e90a";
+}
+.icon-list:before {
+  content: "\e90b";
+}
+.icon-page:before {
+  content: "\e90c";
+}
+.icon-football:before {
+  content: "\e90d";
+}
+.icon-hockey:before {
+  content: "\e90e";
+}
+.icon-tennis:before {
+  content: "\e90f";
+}
+.icon-esports:before {
+  content: "\e910";
+}
+.icon-mma:before {
+  content: "\e911";
+}
+.icon-volleyball:before {
+  content: "\e912";
+}
+.icon-baseball:before {
+  content: "\e913";
+}
+.icon-american-football:before {
+  content: "\e914";
+}
+.icon-search:before {
+  content: "\e915";
+}

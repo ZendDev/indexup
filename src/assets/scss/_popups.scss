@@ -1,0 +1,70 @@
+// --------------------------------------------------------------------------
+// Popups
+// --------------------------------------------------------------------------
+
+.is-popup-open {
+	body {
+		overflow: hidden;
+	}
+}
+
+
+.popup {
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 1000;
+	padding: 40px 16px;
+	background: #F8F8F8;
+	color: #182045;
+	overflow: auto;
+}
+
+.popup__close {
+	position: absolute;
+	top: 30px;
+	right: 30px;
+	color: #8E92A6;
+	transition: color 0.25s;
+	cursor: pointer;
+	&:hover {
+	  color: #000;
+}
+}
+
+.popup__content {
+	
+}
+
+.popup__logo {
+	text-align: center;
+	margin: 0 0 40px;
+	img {
+	  display: inline-block;
+	  vertical-align: top;
+}
+}
+
+.popup__caption {
+	display: block;
+	margin: 0 0 20px;
+	font-size: 22px;
+	line-height: 1.55;
+	font-weight: 700;
+	text-align: center;
+	mark {
+	  background: none;
+	  color: #c81f24;
+	}
+}
+
+.popup__form {
+	max-width: 350px;
+	margin: 0 auto;
+	.ui-check {
+	  font-size: 13px;
+	  font-weight: 500;
+	}
+}
